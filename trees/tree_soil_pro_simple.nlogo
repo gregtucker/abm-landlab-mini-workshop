@@ -27,7 +27,7 @@ to setup-patches
   resize-world 0 74 0 74
   set-patch-size 5
   ;ask patches [ set pcolor 32 set soil-depth 0 set depth-max 0 set soil-age 0 set elevation ((2 / 37) * (37 - sqrt( (37 - pycor) ^ 2)))]
-  ask patches [ set pcolor 32 set soil-depth 0 set depth-max 0 set soil-age 0 set elevation (74 - pycor) * 5 ]
+  ask patches [ set pcolor 32 set soil-depth 0 set depth-max 0 set soil-age 0 set elevation (74 - pycor) * 5 * 0.75 ]
 end
 
 ; setup initial tree population function
